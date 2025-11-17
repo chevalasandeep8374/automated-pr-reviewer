@@ -1,0 +1,11 @@
+*** Begin Patch
+*** Add File: src/example.py
++def greet(name):
++    # Greets a user
++    message = f"Hello {name}"
++    print(message)
++
++def secret():
++    password = "supersecret"
++    print(password)
+*** End Patch
